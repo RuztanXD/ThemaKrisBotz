@@ -13,7 +13,7 @@ installTheme(){
     echo "Installing theme..."
     cd /var/www/pterodactyl
     rm -r ThemaKrisBotz
-    git clone https://github.com/bahanbro/ThemaKrisBotz.git 
+    git clone https://github.com/RuztanXD/ThemaKrisBotz.git 
     cd ThemaKrisBotz
     rm /var/www/pterodactyl/resources/scripts/ThemaKrisBotz.css
     rm /var/www/pterodactyl/resources/scripts/index.tsx
@@ -47,7 +47,7 @@ installThemeQuestion(){
 }
 
 repair(){
-    bash <(curl https://raw.githubusercontent.com/bahanbro/ThemaKrisBotz/main/repair.sh)
+    bash <(curl https://raw.githubusercontent.com/RuztanXD/ThemaKrisBotz/main/repair.sh)
 }
 
 restoreBackUp(){
